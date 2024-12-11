@@ -11,12 +11,12 @@ def blinkEveryX(sleep_time):
     sleep_time (float or int): Number of seconds the LED remains in each state (on or off).
     '''
     while True:
-        # Turn it on
+        # Turn LED on
         led.on()
         print('LED turned on >>>')
         sleep(sleep_time)
 
-        # Turn it off
+        # Turn LED off
         led.off()
         print('LED turned off <<<')
         sleep(sleep_time)
