@@ -1,3 +1,10 @@
+'''
+FILE NAME: button_led.py
+DESCRIPTION: By default the LED is turned OFF. When the connected button is PRESSED, the LED will remain on for as long as the button is continued to be pressed. As soon as the button is NOT PRESSED, the LED will turn OFF. 
+USAGE: "python button_led.py"
+'''
+
+# Imports
 from gpiozero import LED, Button
 
 led = LED(17)

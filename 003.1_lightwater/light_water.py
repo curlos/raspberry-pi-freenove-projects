@@ -1,3 +1,10 @@
+'''
+FILE NAME: light_water.py
+DESCRIPTION: When an LED Bar Graph is connected, all the LEDs will be turned off in the start and then when this is run, this will go through the row of 10 LEDs and turn them on and off from left to right and then turn them on and off from right to left forever.
+USAGE: "python light_water.py"
+'''
+
+# Imports
 from gpiozero import LED
 from time import sleep
 

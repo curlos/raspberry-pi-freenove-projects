@@ -1,3 +1,10 @@
+'''
+FILE NAME: breathing_led.py
+DESCRIPTION: When an LED is connected to a PWM PIN (GPIO18), gradually increase the brightness from 0 to 100, wait 1 second, and then, gradually decrease the brightness from 100 to 0. Repeat this forever.
+USAGE: "python breathing_led.py"
+'''
+
+# Imports
 from gpiozero import PWMLED
 import time
 

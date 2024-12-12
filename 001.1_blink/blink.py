@@ -1,3 +1,10 @@
+'''
+FILE NAME: blink.py
+DESCRIPTION: Repeatedly turn ON and OFF an LED forever. The LED will look like it's BLINKING. This is the equivalent of "Hello World" for Raspberry Pi and micro-computers and micro-controllers.
+USAGE: "python blink.py"
+'''
+
+# Imports
 from gpiozero import LED
 from time import sleep
 
