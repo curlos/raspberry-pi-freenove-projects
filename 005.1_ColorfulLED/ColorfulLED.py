@@ -1,3 +1,8 @@
+"""
+File Name: ColorfulLED.py
+Description: Changes the value of an RGB LED to a random color every 0.5 seconds. The RGB LED must be connected on a Raspberry Pi with the configuration described below for the pins (17, 18, 27).
+"""
+
 from gpiozero import RGBLED
 from time import sleep
 from random import randint
